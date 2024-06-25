@@ -1,21 +1,21 @@
 /*Variaveis das corwes*/
 :root, :root[date-theme='dark']{
---primary-color: #f0f0f0;/*cor principal Textos*/
---primary-bg-color: #111217;/*cor principal do Fundo*/
-/*bg = background == cor do Fundo */
-
-
-
-}
-/* TEMA LIGHT */
-:root, :root[date-theme='light']{
-    --primary-color:#000; /* cor principal textos */
-    --primary-bg-color:#c3c9c5;
-}
-
-
-
-body{
-    background: var(--primary-bg-color);/* cor fundo */
-    color: var(--primary-bg-color); /* cor geral dos textos */
-}
+    --primary-color: #f0f0f0;/*cor principal Textos*/
+    --primary-bg-color: #111217;/*cor principal do Fundo*/
+    /*bg = background == cor do Fundo */
+    
+    
+    
+    }
+    /* TEMA LIGHT */
+    :root, :root[date-theme='light']{
+        --primary-color:#000; /* cor principal textos */
+        --primary-bg-color:#c3c9c5;
+    }
+    
+    
+    
+    body{
+        background: var(--primary-bg-color);/* cor fundo */
+        color: var(--primary-bg-color); /* cor geral dos textos */
+    }
