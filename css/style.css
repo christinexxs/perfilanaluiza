@@ -133,7 +133,7 @@ a:hover{
         text-transform: uppercase;
     }
     .header-nav{
-        display: ;
+        display: none;
     }
     .menu-principal{
         gap: 1rem;
