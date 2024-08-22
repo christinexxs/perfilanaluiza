@@ -13,7 +13,7 @@
     --secondary-bg-color: #28292E;
     --primary-border-color:#28292E;
 
-    --secondary-border-color: #56575A;
+    --secondary-border-color: #aaabaf;
     --title-color: #f0f0f0;
     --link-hover: #f0f0f0;;
     --link-color:  #8f8f8f;
@@ -158,6 +158,52 @@ html[data-theme='light'] .logo3{
     }
     /* ==== ------------------- ===== */
 
+
+    .menu-social{
+        gap: 1rem;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.62rem;
+        width: 100%;
+        background: transparent;
+        border-radius: 3rem;
+        color: var(--secondary-border-color);
+        border: none;
+        cursor: pointer;
+        padding: 0.5rem 1.5rem;
+        transition: ease-in-out .3s;
+    }
+    .btn-primary{
+        border: 1px solid var(--secondary-border-color);
+    }
+    .btn:hover{
+        transform: scale(1.07);
+        transition: ease-in-out .3s;
+    }
+    .btn span, .btn i{
+        font-size: 1.25rem;
+        text-transform: uppercase;
+    }
+    .btn-primary span{
+        color: var(--primary-color);
+    }
+
+    #home{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+
+    
     /* CSS Reponsivo */
     @media (min-width: 768px) {
         .header{
@@ -172,3 +218,5 @@ html[data-theme='light'] .logo3{
             display: flex;
         }
     }
+
+  
