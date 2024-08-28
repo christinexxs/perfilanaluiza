@@ -1,6 +1,6 @@
 /*  Google Fonts */  /* Atalho para Comentar Shift + ALT + A  */
 
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
 
 
 
@@ -207,9 +207,57 @@ html[data-theme='light'] .logo3{
         aspect-ratio: 16/9;
     }
  #home, .projeto, .sobre, .contato{
-    padding: 3.5rem 5rem;
+    padding: 5rem 5rem;
  }
-    
+ .projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+ .projeto-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+ }
+ .card-cover{
+    width: 100%;
+   border-radius: 7rem;
+    object-fit: cover;
+    object-position: center;
+ }
+ .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+ }
+ .card-title{
+    font-size: 2rem;
+    color: var(--title-color);
+    font-weight: 400;
+    font-family: 'Bodoni';
+ }
+ .card-description{
+color: var(--primary-color);
+/*font-size: ;*/
+text-align: justify;
+ }
+ .card-lista{
+margin-left: 1.25rem;
+ }
+ .card-button, .card-description{
+    display: flex;
+    flex-flow: row wrap;
+
+ }
+ .card-button .btn{
+    padding: .65rem 1.25rem;
+ }
+ .card-button span{
+    font-size: 1rem;
+ }
+ 
     /* CSS Reponsivo */
     @media (min-width: 768px) {
         .header{
