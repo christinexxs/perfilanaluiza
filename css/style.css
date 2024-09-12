@@ -266,8 +266,31 @@ margin-left: 1.25rem;
  .card-button span{
     font-size: 1rem;
  }
+ /* === Sobre Mim === */
+ .sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+ .sobre-content1, .sobre-content2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+ }
+
+ .sobre-perfil{ /* imagem */
+    width: 100%;
+    border-radius: 50rem;
+    border: 8px solid var(--link-color);
+ }
  
-    /* CSS Reponsivo */
+ 
+ 
+ 
+ /* =========== ------------------- ============== */
+    
+ /* CSS Reponsivo */
     @media (min-width: 768px) {
         .header{
             position: fixed;
@@ -321,6 +344,33 @@ margin-left: 1.25rem;
         .card-cover{
             width: 55%;
 
+        }
+        .sobre{
+            gap: 5rem;
+        }
+        .sobre-content1, .sobre-content2{
+            display: grid;
+            grid-template-columns: 24% 70%;
+            justify-content: flex-end;
+            align-items: flex-start;
+            gap: 4rem;
+        }
+    }
+    @media (min-width: 1200px){
+        h2{
+            font-size: 4rem;
+        }
+        h3{
+            font-size: 2.5rem;
+        }
+        #home{
+            padding: 10rem 6rem 2rem;
+        }
+        p, span, li{
+            font-size: 1.15rem;
+        }
+        .card-button .btn, .descricao-button  .btn{
+            width: auto;
         }
     }
 
