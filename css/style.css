@@ -345,7 +345,7 @@ margin-left: 1.25rem;
 
 
 .accordion-body{
-    /* display: none; */
+    display: none; 
     padding: 1.25rem;
     flex-direction: column;
     text-align: justify;
